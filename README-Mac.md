@@ -145,7 +145,7 @@ To start the platform make sure you have Ruby installed, go to the root director
   <a href = "https://twitter.com/SergioReact418">
      <img src = "https://img.shields.io/twitter/url?label=follow&style=social&url=https%3A%2F%2Ftwitter.com%2FSergioReact418" />
   </a>
-
-
-
+  
+docker run -it --rm --name my-maven-project -v "${PWD}":/usr/src/mymaven -w /usr/src/mymaven maven:3.8-openjdk-8 mvn clean install
+docker run -it --rm --name my-maven-project -v .:/usr/src/mymaven -w /usr/src/mymaven maven:3.8-openjdk-8 mvn clean install
 
